@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = NLogWithASPNETCore.WebAPI
+build_property.ProjectDir = C:\Repositories\NLogWithASPNETCore\NLogWithASPNETCore.WebAPI\
