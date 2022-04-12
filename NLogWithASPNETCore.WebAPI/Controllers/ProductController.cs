@@ -9,20 +9,21 @@ namespace NLogWithASPNETCore.WebAPI.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private readonly ILogger _logger;
-        public ProductController(ILogger logger)
+        private readonly ILogger<ProductController> _logger;
+        public ProductController(ILogger<ProductController> logger)
         {
             _logger = logger;
         }
 
-        public IActionResult Index()
+        [HttpGet("InitiateRequest")]
+        public IActionResult InitiateRequest()
         {
             try
             {
                 _logger.LogInformation("This is a message from LogInformation method");
                 _logger.LogError("This is a message from LogError method");
 
-                return Ok();
+                return Ok("I am okay");
             }
             catch(Exception ex)
             {

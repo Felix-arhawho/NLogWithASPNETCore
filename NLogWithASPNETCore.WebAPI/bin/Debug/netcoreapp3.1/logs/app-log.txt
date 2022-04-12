@@ -1,0 +1,19 @@
+2022-04-12 11:04:02.6122|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-04-12 11:04:02.7587|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-04-12 11:04:02.7831|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Repositories\NLogWithASPNETCore\NLogWithASPNETCore.WebAPI
+2022-04-12 11:12:19.2349|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-04-12 11:12:19.3394|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-04-12 11:12:19.3394|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Repositories\NLogWithASPNETCore\NLogWithASPNETCore.WebAPI
+2022-04-12 11:12:47.6558|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2022-04-12 11:14:05.8176|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-04-12 11:14:05.9175|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-04-12 11:14:05.9175|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Repositories\NLogWithASPNETCore\NLogWithASPNETCore.WebAPI
+2022-04-12 11:14:27.4969|INFO|NLogWithASPNETCore.WebAPI.Controllers.ProductController|This is a message from LogInformation method
+2022-04-12 11:14:27.5377|ERROR|NLogWithASPNETCore.WebAPI.Controllers.ProductController|This is a message from LogError method
+2022-04-12 11:14:44.3330|INFO|NLogWithASPNETCore.WebAPI.Controllers.ProductController|This is a message from LogInformation method
+2022-04-12 11:14:45.0900|ERROR|NLogWithASPNETCore.WebAPI.Controllers.ProductController|This is a message from LogError method
+2022-04-12 11:15:11.2978|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2022-04-12 11:15:11.3961|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2022-04-12 11:15:11.4210|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Repositories\NLogWithASPNETCore\NLogWithASPNETCore.WebAPI
+2022-04-12 11:15:18.5035|INFO|NLogWithASPNETCore.WebAPI.Controllers.ProductController|This is a message from LogInformation method
+2022-04-12 11:15:18.5458|ERROR|NLogWithASPNETCore.WebAPI.Controllers.ProductController|This is a message from LogError method

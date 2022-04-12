@@ -1,0 +1,23 @@
+﻿Steps for using Nlog in .Net Core
+
+1. Install Package NLog.Web.AspNetCore nugget Package
+2. Add a text file and change it to nlog.config
+3. Add the following to the nlog.config file
+
+<nlog xmlns="http://www.nlog-project.org/schemas/NLog.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<targets>
+		<target name="default" xsi:type="File" fileName="logs/app-log.txt" 
+				archiveFileName="logs/archives/app-log.{#}.txt" archiveEvery="Day" 
+				archiveNumbering="Rolling" maxArchiveFiles="7"/>
+	</targets>
+	<rules>
+		<logger name="*" writeTo="default"/>
+	</rules>
+</nlog>
+
+4. Add the following code as seen in program.cs
+					.ConfigureLogging((hostingContext, logging) => {
+                        logging.AddNLog(hostingContext.Configuration.GetSection("Logging"));
+                    });
+
+5. See Product Controller for sample usage.
